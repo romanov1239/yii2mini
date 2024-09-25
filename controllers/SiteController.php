@@ -59,6 +59,12 @@ class SiteController extends Controller
      *
      * @return string
      */
+    public function actionTest()
+    {
+        return $this->render('test');
+
+    }
+
     public function actionIndex()
     {
         return $this->render('index');
